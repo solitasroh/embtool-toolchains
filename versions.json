@@ -1,9 +1,13 @@
 {
   "schema_version": 1,
-  "latest": "14.2.1",
+  "latest": {
+    "nxp": "14.2.1",
+    "stm": "13.3.1"
+  },
   "toolchains": [
     {
       "version": "14.2.1",
+      "vendor": "nxp",
       "gcc": "14.2.1",
       "source": "MCUXpresso IDE 25.6.136",
       "date": "2025-06",
@@ -23,6 +27,7 @@
     },
     {
       "version": "13.2.1",
+      "vendor": "nxp",
       "gcc": "13.2.1",
       "source": "MCUXpresso IDE (NXP SDK)",
       "date": "2025-01",
@@ -33,6 +38,22 @@
           "file": "nxp-13.2.1-win-x64.7z",
           "size": 198686547,
           "sha256": "2f1956aa18b372eb4203f1d9a162a97f9fd7d5d134cc635e54381481a6390413"
+        }
+      }
+    },
+    {
+      "version": "13.3.1",
+      "vendor": "stm",
+      "gcc": "13.3.1",
+      "source": "STM32CubeIDE 1.0.100",
+      "date": "2025-09",
+      "includes": ["newlib-nano"],
+      "assets": {
+        "linux-x64": null,
+        "win-x64": {
+          "file": "stm-13.3.1-win-x64.7z",
+          "size": 152698895,
+          "sha256": "7a26fa40fc08df6301fae90ec381e973497c97bb321ee3325788a7aae03e0d5b"
         }
       }
     }
